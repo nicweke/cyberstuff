@@ -235,7 +235,7 @@ html.w-mod-touch * {
 .w-button {
     display: inline-block;
     padding: 9px 15px;
-    background-color: #3898ec;
+    background-color: #0609c6;
     color: #fff;
     border: 0;
     line-height: inherit;
@@ -2135,8 +2135,9 @@ blockquote {
     margin-top: auto;
 }
 .button-stroke.button-nav {
-    border-color: #343799;
-    color: #343799;
+    border-color: #0609c6 !important;
+    background-color: #0609c6 !important;
+    color: #fff !important;
 }
 .button-stroke.button-nav:hover {
     background-color: transparent;
@@ -2313,7 +2314,7 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 8px;
-    background-color: #343799;
+    background-color: #0609c6;
     font-family: CircularXX, sans-serif;
     color: #fff;
     font-size: 14px;
@@ -3206,6 +3207,7 @@ blockquote {
 }
 .preview-ui-image {
     border-radius: 24px;
+    width: 100%;
 }
 .preview-ui-item {
     position: absolute;
@@ -5534,13 +5536,13 @@ blockquote {
         linear,
         left top,
         left bottom,
-        from(rgba(207, 209, 236, 0.26)),
-        to(rgba(236, 207, 207, 0.29))
+        from(rgba(0, 8, 20, 1)),
+        to(rgba(0, 8, 20, 1))
     );
     background-image: linear-gradient(
         180deg,
-        rgba(207, 209, 236, 0.26),
-        rgba(236, 207, 207, 0.29)
+        rgba(0, 8, 20, 1),
+        rgba(0, 8, 20, 1)
     );
 }
 .parallax-item {
@@ -8574,8 +8576,9 @@ blockquote {
     cursor: pointer;
 }
 .price-number {
-    font-size: 56px;
+    font-size: 49px;
     font-weight: 700;
+    color: #000;
 }
 .h2-common-2 {
     margin-top: 0;
@@ -8635,7 +8638,7 @@ blockquote {
 .pricing-section {
     padding-top: 44px;
     padding-bottom: 60px;
-    background-image: -webkit-gradient(
+    /* background-image: -webkit-gradient(
         linear,
         left top,
         left bottom,
@@ -8646,7 +8649,7 @@ blockquote {
         180deg,
         rgba(207, 209, 236, 0.26) 30%,
         rgba(236, 207, 207, 0.29)
-    );
+    ); */
 }
 .pricing-card {
     display: -webkit-box;
@@ -8686,12 +8689,15 @@ blockquote {
     margin-bottom: 32px;
 }
 .price-subscript {
-    font-size: 24px;
+    font-size: 15px;
 }
 .member-numbers {
-    color: #343799;
-    font-size: 24px;
+    /* color: #343799; */
+    color: #000;
+    font-size: 30px;
     font-weight: 700;
+    text-align:center;
+    padding-bottom:0.5em;
 }
 .container-common-2 {
     max-width: 1288px;
@@ -8710,8 +8716,9 @@ blockquote {
     margin-top: 40px;
 }
 .billed-desc {
-    color: #343799;
-    font-size: 24px;
+    color: #000;
+    font-size: 20px;
+    /* font-family: CircularXX, sans-serif; */
 }
 .toggle-module {
     display: -webkit-box;
@@ -8881,24 +8888,18 @@ blockquote {
     padding-bottom: 64px;
 }
 .pricing-hero.js-parallax {
-    background-color: #fff;
+    background-color: #000814;
     background-image: -webkit-gradient(
         linear,
         left top,
         left bottom,
-        from(rgba(207, 209, 236, 0.26)),
-        color-stop(64%, rgba(236, 207, 207, 0.29)),
-        color-stop(0, #fff),
-        color-stop(100%, #fff),
-        to(#fff)
+        from(rgba(0, 8, 20, 1)),
+        color-stop(64%, rgba(0, 8, 20, 1))
     );
     background-image: linear-gradient(
         180deg,
-        rgba(207, 209, 236, 0.26),
-        rgba(236, 207, 207, 0.29) 64%,
-        #fff 0,
-        #fff 100%,
-        #fff
+        rgba(0, 8, 20, 1),
+        rgba(0, 8, 20, 1)
     );
 }
 .pricing-hero.js-parallax._1-pager {
@@ -8913,10 +8914,10 @@ blockquote {
 ._30-day-trial-card {
     position: relative;
     z-index: 1;
-    padding: 32px 49px;
-    border: 5px solid #4f52b1;
-    border-radius: 20px;
-    background-color: #fff;
+    /* padding: 32px 49px; */
+    border: 5px solid #000814;
+    border-radius: 28px;
+    /* background-color: #fff; */
 }
 ._30-day-trial-grid {
     grid-column-gap: 40px;

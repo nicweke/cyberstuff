@@ -23,3 +23,4 @@ Route::redirect('/', '/home');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/trainings', [App\Http\Controllers\TrainingsController::class, 'index'])->name('trainings');
+Route::get('/courses', [App\Http\Controllers\CoursesController::class, 'index'])->name('courses');

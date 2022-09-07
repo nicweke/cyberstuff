@@ -2,7 +2,7 @@
 
 @section('content')
     <div data-w-id="4921e478-89de-f7be-0c9d-f2beba6d4dfd" class="demo-outer wf-section">
-        <div class="demo">
+        <div class="demo" style="background-image: url('assets/images/vortex.gif')">
             <div class="container-common relative w-container">
                 <div data-w-id="4921e478-89de-f7be-0c9d-f2beba6d4dff" class="pointer-events-all">
                     <h3 class="demo-title" style="color: #0DFAFA">Cyber Security Awareneness Training</h3>
@@ -34,7 +34,7 @@
     <div data-w-id="8a6db4ec-4b58-617c-6fc0-27edb2830204" class="section-item js-parallax wf-section">
         <div class="container-common w-container">
             <div class="columns reverse w-row">
-                <div data-w-id="8a6db4ec-4b58-617c-6fc0-27edb2830207" style="opacity:0" class="column w-col w-col-6">
+                <div data-w-id="8a6db4ec-4b58-617c-6fc0-27edb2830207" style="opacity:1" class="column w-col w-col-6">
                     <div class="preview">
                         <div class="preview-shape"></div>
                         <div class="preview-item fb-1">
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div data-w-id="8a6db4ec-4b58-617c-6fc0-27edb283020f" style="opacity:0"
+                <div data-w-id="8a6db4ec-4b58-617c-6fc0-27edb283020f" style="opacity:1"
                     class="column push-right w-col w-col-6">
                     <div class="column-inner size-m">
                         <h2 class="h2-common" style="color:#7A8450">World-class Awareness Training</h2>

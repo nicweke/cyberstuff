@@ -9330,7 +9330,8 @@ blockquote {
         max-width: 660px;
     }
     .logo {
-        margin-right: 40px;
+        margin-right: 24px;
+        
     }
     .preview-item.f-1 {
         left: 8.5%;
@@ -10373,6 +10374,7 @@ blockquote {
     }
     .logo {
         z-index: 2;
+       
     }
     .div-block-32 {
         display: none;
@@ -11632,6 +11634,7 @@ blockquote {
     }
     .logo {
         margin-right: 0;
+        
     }
     .burger {
         margin-left: 4px;

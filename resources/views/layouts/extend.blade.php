@@ -1,21 +1,21 @@
 <!DOCTYPE html><!-- Last Published: Wed Aug 31 2022 21:50:21 GMT+0000 (Coordinated Universal Time) -->
-<html data-wf-domain="matterapp.com" data-wf-page="63095ad0d950832c2a2d1841" data-wf-site="60b9220d74f790a1191230c9"
+<html data-wf-domain="CyberStuffapp.com" data-wf-page="63095ad0d950832c2a2d1841" data-wf-site="60b9220d74f790a1191230c9"
     lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <title>Develop Professional &amp; Soft Skills | Matter</title>
+    <title>Develop Professional &amp; Soft Skills | CyberStuff</title>
     <meta
         content="Professional and soft skills that are tied to performance and career success. Learn how to develop, improve, and master these skills."
         name="description" />
-    <meta content="Develop Professional &amp; Soft Skills | Matter" property="og:title" />
+    <meta content="Develop Professional &amp; Soft Skills | CyberStuff" property="og:title" />
     <meta
         content="Professional and soft skills that are tied to performance and career success. Learn how to develop, improve, and master these skills."
         property="og:description" />
     <meta
         content="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61afd92aff60955a7e6c9195_OG%20Image.png"
         property="og:image" />
-    <meta content="Develop Professional &amp; Soft Skills | Matter" property="twitter:title" />
+    <meta content="Develop Professional &amp; Soft Skills | CyberStuff" property="twitter:title" />
     <meta
         content="Professional and soft skills that are tied to performance and career success. Learn how to develop, improve, and master these skills."
         property="twitter:description" />
@@ -45,12 +45,12 @@
         }(window, document);
     </script>
     <link
-        href="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61732442e035875e4f881223_favicon_32px.png"
+        href="{{asset('assets/images/logo/output2.png')}}"
         rel="shortcut icon" type="image/x-icon" />
     <link
         href="https://assets-global.website-files.com/60b9220d74f790a1191230c9/617324e3858d1a5d6c3c8fc2_favicon-256px.png"
         rel="apple-touch-icon" />
-    <link href="https://matterapp.com/skills" rel="canonical" />
+    <link href="https://CyberStuffapp.com/skills" rel="canonical" />
     <style>
         .anti-flicker-hide {
             opacity: 0 !important
@@ -235,9 +235,9 @@
     <div data-w-id="2d6f8e8d-3c02-a70d-2287-7298d0f9ec3a" class="navbar-trigger"></div>
     <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
         role="banner" class="navbar-wrapper backdrop-blur w-nav">
-        <div class="container-nav w-container"><a href="/" class="logo w-nav-brand"><img loading="lazy"
-                    src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/6139b2563144e512c42b1182_matter.svg"
-                    alt="Matter" class="image-11" /></a>
+        <div class="container-nav w-container"><a href="{{route('home')}}" class="logo w-nav-brand"><img loading="lazy"
+                    src="{{asset('assets/images/logo/output2.png')}}"
+                    alt="CyberStuff" class="image-11" /></a>
             <div role="navigation" class="nav w-nav-menu">
                 <div class="nav-layout">
                     <div data-w-id="33b7d129-eee1-8e9f-9296-dc2ef7490c67" class="nav-dropdown">
@@ -304,12 +304,12 @@
                     </div>
                     <div class="nav-group"><a href="/pricing" class="nav-link w-nav-link">Pricing</a><a
                             href="/demo" class="nav-link w-nav-link">Demo</a><a
-                            href="https://app.matterapp.com/login"
+                            href="https://app.CyberStuffapp.com/login"
                             class="nav-link nav-link-hidden nav-link-hidden-mobile w-nav-link">Sign in</a></div>
                 </div>
             </div>
-            <div class="sign"><a href="https://app.matterapp.com/login" class="sign-link w-nav-link">Sign in</a><a
-                    href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.matterapp.com/oauth/slack?inapp=false"
+            <div class="sign"><a href="https://app.CyberStuffapp.com/login" class="sign-link w-nav-link">Sign in</a><a
+                    href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.CyberStuffapp.com/oauth/slack?inapp=false"
                     target="_blank" class="button-stroke button-nav main-nav-cta w-button">Get started — Free!</a>
             </div>
             <div data-w-id="33b7d129-eee1-8e9f-9296-dc2ef7490c9e" class="burger w-nav-button">
@@ -353,12 +353,12 @@
             <footer class="footer-wrapper wf-section">
                 <div class="container-common container-footer w-container">
                     <div class="columns-3 w-row">
-                        <div class="column-61 w-col w-col-5 w-col-stack"><a href="#"
+                        <div class="column-61 w-col w-col-5 w-col-stack"><a href="{{route('home')}}"
                                 class="link-block-5 w-inline-block"><img
-                                    src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/6139b2563144e512c42b1182_matter.svg"
-                                    loading="lazy" alt="Matter" class="image-15" /></a><a
+                                    src="{{asset('assets/images/logo/output2.png')}}"
+                                    loading="lazy" alt="CyberStuff" class="image-15" /></a><a
                                 data-w-id="d30c5752-856e-7e22-6875-177d9409edfb"
-                                href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.matterapp.com/oauth/slack?inapp=false"
+                                href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.CyberStuffapp.com/oauth/slack?inapp=false"
                                 target="_blank" class="link-block-4 sia-cta-button w-inline-block">
                                 <div data-w-id="d30c5752-856e-7e22-6875-177d9409edfc" class="text-block-9 sia-cta-button">
                                     Start Feedback Friday and create a feedback culture with kudos &amp; rewards</div>
@@ -433,15 +433,15 @@
                     </div>
                     <div class="div-block-27">
                         <div class="text-block-12">© 2022 CyberStuff</div>
-                        <div class="div-block-28"><a href="https://twitter.com/matterapp" target="_blank"
+                        <div class="div-block-28"><a href="https://twitter.com/CyberStuffapp" target="_blank"
                                 class="link-block-7 w-inline-block"><img
                                     src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61407d2c77524c0b53f06e89_twitter.svg"
                                     loading="lazy" alt="Twitter" class="image-19" /></a><a
-                                href="https://www.linkedin.com/company/matterapp" target="_blank"
+                                href="https://www.linkedin.com/company/CyberStuffapp" target="_blank"
                                 class="link-block-7 w-inline-block"><img
                                     src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61407d2c2ef5970ccdf07260_linkedin.svg"
                                     loading="lazy" alt="LinkEdin" class="image-18" /></a><a
-                                href="https://www.facebook.com/matterapp.inc" target="_blank"
+                                href="https://www.facebook.com/CyberStuffapp.inc" target="_blank"
                                 class="link-block-7 w-inline-block"><img
                                     src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/614dffbdc88051c13862196e_facebook.svg"
                                     loading="lazy" alt="" class="image-17" /></a></div>
@@ -464,7 +464,7 @@
             <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60b9220d74f790a1191230c9"
                 type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
             </script>
-            <script src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/js/matterapp.40079e9b2.js"
+            <script src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/js/CyberStuffapp.40079e9b2.js"
                 type="text/javascript"></script>
             <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
             <!-- Google Tag Manager (noscript) -->

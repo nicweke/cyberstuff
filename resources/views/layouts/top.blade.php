@@ -5,18 +5,18 @@
     <meta charset="utf-8" />
     <title></title>
     {{-- <meta
-        content="Matter is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
+        content="CyberStuff is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
         name="description" />
-    <meta content="Matter: Create Team Recognition with Feedback Friday" property="og:title" />
+    <meta content="CyberStuff: Create Team Recognition with Feedback Friday" property="og:title" />
     <meta
-        content="Matter is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
+        content="CyberStuff is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
         property="og:description" />
     <meta
         content="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61afd92aff60955a7e6c9195_OG%20Image.png"
         property="og:image" />
-    <meta content="Matter: Create Team Recognition with Feedback Friday" property="twitter:title" />
+    <meta content="CyberStuff: Create Team Recognition with Feedback Friday" property="twitter:title" />
     <meta
-        content="Matter is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
+        content="CyberStuff is a Slack app that creates a team recognition habit called Feedback Friday where team members recognize each other with kudos, rewards, and feedback."
         property="twitter:description" />
     <meta
         content="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61afd92aff60955a7e6c9195_OG%20Image.png"
@@ -29,8 +29,8 @@
     <link href="{{ asset('assets/css/cyber.css') }}" rel="stylesheet" type="text/css" />
 
     {{-- -----------------------------Favicon------------------- --------- --}}
-    <link href="" rel="shortcut icon" type="image/x-icon" />
-    
+    <link href="{{ asset('assets/images/logo/output2.png') }}" rel="shortcut icon" type="image/x-icon" />
+
     {{-- -----------------------------Bootstrap------------------- --------- --}}
 
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -40,7 +40,7 @@
         href="https://assets-global.website-files.com/60b9220d74f790a1191230c9/617324e3858d1a5d6c3c8fc2_favicon-256px.png"
         rel="apple-touch-icon" />
 
-    <link href="https://matterapp.com/" rel="canonical" />
+    <link href="https://CyberStuffapp.com/" rel="canonical" />
     <style>
         @media (min-width:992px) {
             html.w-mod-js:not(.w-mod-ix) [data-w-id="5fbf85bf-5766-0a63-64df-dce0811a1d52"] {
@@ -263,11 +263,15 @@
     <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
         role="banner" class="navbar-wrapper backdrop-blur w-nav">
         <div class="container-nav w-container">
-            <a href="" aria-current="page" class="logo w-nav-brand w--current">
+            <a href="{{route('home')}}" aria-current="page" class=" w-nav-brand w--current">
                 <img loading="lazy"
-                    src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/6139b2563144e512c42b1182_matter.svg"
-                    alt="Matter" class="image-11" />
+                    src="{{asset('assets/images/logo/output2.png')}}"
+                    alt="CyberStuff" class="image-11" />
             </a>
+
+            
+
+
             <div role="navigation" class="nav w-nav-menu">
                 <div class="nav-layout">
                     <div data-w-id="5fbf85bf-5766-0a63-64df-dce0811a1d4e" class="nav-dropdown">
@@ -334,12 +338,13 @@
                     </div>
                     <div class="nav-group"><a href="/pricing" class="nav-link w-nav-link">Pricing</a><a
                             href="/demo" class="nav-link w-nav-link">Demo</a><a
-                            href="https://app.matterapp.com/login"
+                            href="https://app.CyberStuffapp.com/login"
                             class="nav-link nav-link-hidden nav-link-hidden-mobile w-nav-link">Sign in</a></div>
                 </div>
             </div>
-            <div class="sign"><a href="https://app.matterapp.com/login" class="sign-link w-nav-link">Sign in</a><a
-                    href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.matterapp.com/oauth/slack?inapp=false"
+            <div class="sign"><a href="https://app.CyberStuffapp.com/login" class="sign-link w-nav-link">Sign
+                    in</a><a
+                    href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.CyberStuffapp.com/oauth/slack?inapp=false"
                     target="_blank" class="button-stroke button-nav main-nav-cta all-cta-home-page w-button">Get
                     started — Free!</a></div>
             <div data-w-id="5fbf85bf-5766-0a63-64df-dce0811a1d95" class="burger w-nav-button">
@@ -388,12 +393,12 @@
         <div class="container-common container-footer w-container">
             <div class="columns-3 w-row">
                 <div class="column-61 w-col w-col-5 w-col-stack">
-                    <a href="#" class="link-block-5 w-inline-block">
-                        <img src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/6139b2563144e512c42b1182_matter.svg"
-                            loading="lazy" alt="Matter" class="image-15" />
+                    <a href="{{ route('home') }}" class="link-block-5 w-inline-block">
+                        <img src="{{ asset('assets/images/logo/output2.png') }}" loading="lazy" alt="CyberStuff"
+                            class="image-15" />
                     </a>
                     <a data-w-id="d30c5752-856e-7e22-6875-177d9409edfb"
-                        href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.matterapp.com/oauth/slack?inapp=false"
+                        href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.CyberStuffapp.com/oauth/slack?inapp=false"
                         target="_blank" class="link-block-4 sia-cta-button w-inline-block">
                         <div data-w-id="d30c5752-856e-7e22-6875-177d9409edfc" class="text-block-9 sia-cta-button">
                             Start Feedback Friday and create a feedback culture with kudos &amp; rewards</div>
@@ -444,7 +449,7 @@
                                 </li>
                                 <li class="footer-menu-item"><a href="/skills" class="footer-menu-link">Develop
                                         skills</a></li>
-                                <li class="footer-menu-item"><a href="https://get.matter.support/en/"
+                                <li class="footer-menu-item"><a href="https://get.CyberStuff.support/en/"
                                         class="footer-menu-link">Help center</a></li>
                                 <li class="footer-menu-item"><a href="/admin-onboarding"
                                         class="footer-menu-link teams-waitlist-cta-button teams-waitlist-cta-button-footer">Admin
@@ -474,13 +479,15 @@
                 <div class="div-block-28"><a href="https://twitter.com/" target="_blank"
                         class="link-block-7 w-inline-block"><img
                             src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61407d2c77524c0b53f06e89_twitter.svg"
-                            loading="lazy" alt="Twitter" class="image-19" /></a><a href="https://www.linkedin.com/"
-                        target="_blank" class="link-block-7 w-inline-block"><img
+                            loading="lazy" alt="Twitter" class="image-19" /></a>
+                    <a href="https://www.instagram.com/cyberstuffke/?hl=en" target="_blank"
+                        class="link-block-7 w-inline-block"><img
                             src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61407d2c2ef5970ccdf07260_linkedin.svg"
                             loading="lazy" alt="LinkEdin" class="image-18" /></a><a href="https://www.facebook.com/"
                         target="_blank" class="link-block-7 w-inline-block"><img
                             src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/614dffbdc88051c13862196e_facebook.svg"
-                            loading="lazy" alt="" class="image-17" /></a></div>
+                            loading="lazy" alt="" class="image-17" /></a>
+                </div>
             </div>
         </div>
     </footer>

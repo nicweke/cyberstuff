@@ -132,24 +132,15 @@
                     <div class="subtitle-s">Attackers never rest, why should we? Our Team works for you all day and night, to ensure you are secure.
                     </div>
                     <div class="div-block-21"><a
-                            href="https://slack.com/oauth/v2/authorize?scope=app_mentions:read,channels:join,channels:manage,channels:read,chat:write,commands,groups:write,groups:read,im:history,im:read,im:write,mpim:write,team:read,users:read,users:read.email,reactions:read&amp;user_scope=chat:write,identify&amp;client_id=265432257396.1623561701347&amp;redirect_uri=https://api.matterapp.com/oauth/slack?inapp=false"
-                            target="_blank"
+                            href=""
+                            {{-- target="_blank" --}}
                             class="button-common medium sia-cta-button all-cta-home-page w-inline-block"><img
-                                src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/612d5d6a6538f2090859d23f_slack.svg"
+                                src="{{asset('assets/images/icons/contact.png')}}"
                                 loading="lazy" height="24" width="24" alt="Slack"
                                 class="ms-teams-icon sia-cta-button all-cta-home-page" />
-                            <div class="text-block-6 sia-cta-button all-cta-home-page">Add to Slack for Free</div>
+                            <div class="text-block-6 sia-cta-button all-cta-home-page">Contact Us</div>
                         </a></div>
-                    <div class="div-block-21 div-block-21-top-margin"><a
-                            href="https://api.matterapp.com/oauth/teams" target="_blank"
-                            class="button-common medium ms-teams-cta-button w-inline-block"><img
-                                src="https://assets-global.website-files.com/60b9220d74f790a1191230c9/61a7dbb8c5274635d7be2b1b_MS%20Teams%20Logo.png"
-                                loading="lazy" height="24" width="24" alt=""
-                                class="ms-teams-icon ms-teams-cta-button" />
-                            <div
-                                class="ms-teams-cta-button teams-waitlist-cta-button-demo teams-waitlist-cta-button-sticky-cta">
-                                Add to Teams for Free</div>
-                        </a></div>
+                    
                 </div>
             </div>
             <div data-w-id="cea94812-50b8-c115-9481-fc4f3814bbc0" class="section-column w-col w-col-6">
